@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\MVC CRUD SYSTEM\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|c:\\mvc crud system\\mvc.bll\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|solutionrelative:mvc.bll\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +51,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Class2.cs",
+              "RelativeDocumentMoniker": "MVC.BLL\\Class2.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Class2.cs",
+              "RelativeToolTip": "MVC.BLL\\Class2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T20:00:16.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Program.cs",
+              "RelativeDocumentMoniker": "MVC .PL\\Program.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Program.cs",
+              "RelativeToolTip": "MVC .PL\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T19:59:48.523Z",
+              "EditorCaption": ""
             }
           ]
         }
