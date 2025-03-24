@@ -11,8 +11,13 @@ namespace MVC.DAL.Data
 {
     public class AppDBContext : DbContext
     {
+
+        public AppDBContext(DbContextOptions<AppDBContext> options) : base(options)
+        {
+
+        }
         override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlServer("Server=.;Database=EmployeeDB;Trusted_Connection=True;");
+            => optionsBuilder.UseSqlServer("Server=.;Database= MVCProject_DB;Trusted_Connection=True;");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

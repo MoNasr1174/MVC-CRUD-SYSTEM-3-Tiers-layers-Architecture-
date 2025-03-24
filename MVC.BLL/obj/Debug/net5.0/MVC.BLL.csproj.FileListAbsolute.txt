@@ -1,0 +1,16 @@
+C:\MVC CRUD SYSTEM\MVC.BLL\bin\Debug\net5.0\MVC.BLL.deps.json
+C:\MVC CRUD SYSTEM\MVC.BLL\bin\Debug\net5.0\MVC.BLL.dll
+C:\MVC CRUD SYSTEM\MVC.BLL\bin\Debug\net5.0\MVC.BLL.pdb
+C:\MVC CRUD SYSTEM\MVC.BLL\bin\Debug\net5.0\MVC.DAL.dll
+C:\MVC CRUD SYSTEM\MVC.BLL\bin\Debug\net5.0\MVC.DAL.pdb
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.csproj.AssemblyReference.cache
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.AssemblyInfoInputs.cache
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.AssemblyInfo.cs
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.csproj.CoreCompileInputs.cache
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.sourcelink.json
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.csproj.Up2Date
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.dll
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\refint\MVC.BLL.dll
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\MVC.BLL.pdb
+C:\MVC CRUD SYSTEM\MVC.BLL\obj\Debug\net5.0\ref\MVC.BLL.dll

@@ -1,0 +1,13 @@
+C:\MVC CRUD SYSTEM\MVC.DAL\bin\Debug\net5.0\MVC.DAL.deps.json
+C:\MVC CRUD SYSTEM\MVC.DAL\bin\Debug\net5.0\MVC.DAL.dll
+C:\MVC CRUD SYSTEM\MVC.DAL\bin\Debug\net5.0\MVC.DAL.pdb
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.csproj.AssemblyReference.cache
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.AssemblyInfoInputs.cache
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.AssemblyInfo.cs
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.csproj.CoreCompileInputs.cache
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.sourcelink.json
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.dll
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\refint\MVC.DAL.dll
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\MVC.DAL.pdb
+C:\MVC CRUD SYSTEM\MVC.DAL\obj\Debug\net5.0\ref\MVC.DAL.dll

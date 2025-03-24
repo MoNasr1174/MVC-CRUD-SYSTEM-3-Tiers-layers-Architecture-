@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\MVC CRUD SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\data\\migrations\\20250324230726_intailcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\data\\migrations\\20250324230726_intailcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\data\\configurations\\dapartmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\data\\configurations\\dapartmentconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\data\\migrations\\20250324230726_intailcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\data\\migrations\\20250324230726_intailcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,47 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "MVC.DAL\\Data\\AppDBContext.cs",
-              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\AppDBContext.cs",
-              "RelativeToolTip": "MVC.DAL\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T21:25:42.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DapartmentConfigurations.cs",
-              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Configurations\\DapartmentConfigurations.cs",
-              "RelativeDocumentMoniker": "MVC.DAL\\Data\\Configurations\\DapartmentConfigurations.cs",
-              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Configurations\\DapartmentConfigurations.cs",
-              "RelativeToolTip": "MVC.DAL\\Data\\Configurations\\DapartmentConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T21:22:15.162Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "MVC.DAL\\Models\\Department.cs",
-              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\Department.cs",
-              "RelativeToolTip": "MVC.DAL\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T21:12:37.317Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -94,6 +55,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\AppDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "MVC.DAL\\Data\\Migrations\\AppDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\AppDBContextModelSnapshot.cs",
+              "RelativeToolTip": "MVC.DAL\\Data\\Migrations\\AppDBContextModelSnapshot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:08:17.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250324230726_IntailCreate.Designer.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.Designer.cs",
+              "RelativeDocumentMoniker": "MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.Designer.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.Designer.cs",
+              "RelativeToolTip": "MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:07:58.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250324230726_IntailCreate.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
+              "RelativeDocumentMoniker": "MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
+              "RelativeToolTip": "MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:07:54.983Z",
+              "EditorCaption": ""
             }
           ]
         }
