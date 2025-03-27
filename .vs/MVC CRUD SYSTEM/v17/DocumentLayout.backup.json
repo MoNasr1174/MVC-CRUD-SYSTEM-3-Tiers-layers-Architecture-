@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\MVC CRUD SYSTEM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\data\\migrations\\20250324230726_intailcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\data\\migrations\\20250324230726_intailcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|c:\\mvc crud system\\mvc.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|solutionrelative:mvc.bll\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|c:\\mvc crud system\\mvc.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|solutionrelative:mvc.bll\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|c:\\mvc crud system\\mvc.bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|solutionrelative:mvc.bll\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|c:\\mvc crud system\\mvc.bll\\interfaces\\idapartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|solutionrelative:mvc.bll\\interfaces\\idapartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|c:\\mvc crud system\\mvc.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|solutionrelative:mvc.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|c:\\mvc crud system\\mvc.bll\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36A1F35-3397-468C-BDE6-992C595C77C5}|MVC.BLL\\MVC.BLL.csproj|solutionrelative:mvc.bll\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|c:\\mvc crud system\\mvc.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1209E67-C352-4253-BD9D-2C63D871CA1B}|MVC.DAL\\MVC.DAL.csproj|solutionrelative:mvc.dal\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,15 +82,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250324230726_IntailCreate.cs",
-              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
-              "RelativeDocumentMoniker": "MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
-              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
-              "RelativeToolTip": "MVC.DAL\\Data\\Migrations\\20250324230726_IntailCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "MVC.BLL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "MVC.BLL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T23:07:26.818Z",
+              "WhenOpened": "2025-03-27T21:01:04.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDapartmentRepository.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Interfaces\\IDapartmentRepository.cs",
+              "RelativeDocumentMoniker": "MVC.BLL\\Interfaces\\IDapartmentRepository.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Interfaces\\IDapartmentRepository.cs",
+              "RelativeToolTip": "MVC.BLL\\Interfaces\\IDapartmentRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:48:01.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "MVC.BLL\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "MVC.BLL\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:45:55.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "MVC.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "MVC.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:10:21.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "MVC.BLL\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "MVC.BLL\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:17:28.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "MVC.BLL\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.BLL\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "MVC.BLL\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:13:03.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "MVC.DAL\\Models\\Employee.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\Employee.cs",
+              "RelativeToolTip": "MVC.DAL\\Models\\Employee.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:47:07.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "MVC.DAL\\Models\\Department.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\Department.cs",
+              "RelativeToolTip": "MVC.DAL\\Models\\Department.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:47:13.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "MVC.DAL\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC.DAL\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "MVC.DAL\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:46:39.273Z",
               "EditorCaption": ""
             }
           ]

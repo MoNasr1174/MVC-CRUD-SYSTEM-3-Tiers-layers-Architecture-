@@ -16,8 +16,8 @@ namespace MVC.DAL.Data
         {
 
         }
-        override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseSqlServer("Server=.;Database= MVCProject_DB;Trusted_Connection=True;");
+        //override protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //    => optionsBuilder.UseSqlServer("Server=.;Database= MVCProject_DB;Trusted_Connection=True;");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,6 +26,8 @@ namespace MVC.DAL.Data
         }
 
         public DbSet<Department> Departments { get; set; }
+
+        public DbSet<Employee> Employees { get; set; } 
 
 
     }

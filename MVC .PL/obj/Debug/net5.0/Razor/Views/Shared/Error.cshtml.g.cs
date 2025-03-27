@@ -22,12 +22,18 @@ using MVC_.PL
 #line 2 "C:\MVC CRUD SYSTEM\MVC .PL\Views\_ViewImports.cshtml"
 using MVC_.PL.Models
 
+#nullable disable
+    ;
+#nullable restore
+#line 3 "C:\MVC CRUD SYSTEM\MVC .PL\Views\_ViewImports.cshtml"
+using MVC.DAL.Models
+
 #line default
 #line hidden
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"5dbf98b6b9394ad78206edce40cab1d7a238aa69cfefa41bab0ebc6aa22488aa", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"d838cfb9300adf622d517535c8bee91e4a5dfedda6a7189c48272f33559ef7ca", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"9ec7b760ac08c9878af3662c5fb3b099b03425b46e91de4a159ef392045f5321", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<
 #nullable restore

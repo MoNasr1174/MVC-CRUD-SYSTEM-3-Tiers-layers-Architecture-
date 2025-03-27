@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MVC.BLL.Interfaces;
+using MVC.BLL.Repositories;
 using MVC.DAL.Data;
 
 namespace MVC_.PL
@@ -32,6 +34,8 @@ namespace MVC_.PL
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.AddScoped<IDapartmentRepository, DepartmentRepository>(); // Add IDapartmentRepository and DepartmentRepository to services
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
