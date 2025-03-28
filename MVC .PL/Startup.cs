@@ -35,7 +35,9 @@ namespace MVC_.PL
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            services.AddScoped<IDapartmentRepository, DepartmentRepository>(); // Add IDapartmentRepository and DepartmentRepository to services
+            services.AddScoped<IDapartmentRepository, DepartmentRepository>();
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>(); 
+            // Add IDapartmentRepository and DepartmentRepository to services
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

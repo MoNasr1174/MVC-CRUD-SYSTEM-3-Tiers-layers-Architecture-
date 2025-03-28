@@ -9,21 +9,9 @@
 </div>*@ 
 <br />
 <form asp-action="Edit">
-    <div class="mb-3 form-group">
-        <label class="col-form-label" asp-for="Code"></label>
-        <input type="text" class="form-control" asp-for="Code">
-        <span asp-validation-for="Code" class="text-danger"></span>
-    </div>
-    <div class="mb-3 form-group">
-        <label class="col-form-label" asp-for="Name"></label>
-        <input type="text" class="form-control" asp-for="Name">
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <div class="mb-3 form-group">
-        <label class="col-form-label" asp-for="DateOfCreation"></label>
-        <input class="form-control" asp-for="DateOfCreation">
-        <span asp-validation-for="DateOfCreation" class="text-danger"></span>
-    </div>
-    <input type="submit" value="Save" class="btn btn-primary" />
-    <a asp-action="Index" class="btn btn-light">Back To List</a>
+    <partial name="PartialViews/_CreateEditPartial" />
 </form>
+
+@section ValidationScriptSection {
+    <partial name="_ValidationScriptPartial" />
+}

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC.DAL.Data.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20250327190239_EmployeeModule")]
-    partial class EmployeeModule
+    [Migration("20250327224422_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -61,7 +61,7 @@ namespace MVC.DAL.Data.Migrations
                     b.Property<DateTime>("CreationTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Enail")
+                    b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("HireDate")

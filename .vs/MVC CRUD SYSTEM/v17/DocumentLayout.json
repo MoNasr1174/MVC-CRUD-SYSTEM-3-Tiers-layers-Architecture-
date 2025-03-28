@@ -1,7 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\MVC CRUD SYSTEM\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\department\\partialviews\\_createeditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\department\\partialviews\\_createeditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\employee\\partialviews\\_createeditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\employee\\partialviews\\_createeditpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|c:\\mvc crud system\\mvc .pl\\views\\shared\\_buttonspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{00A76F47-BD53-4052-BE74-FE98C9E565A2}|MVC .PL\\MVC .PL.csproj|solutionrelative:mvc .pl\\views\\shared\\_buttonspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +103,201 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:46:04.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:44:42.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Department\\Delete.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Delete.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Department\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:36:14.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_CreateEditPartial.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\PartialViews\\_CreateEditPartial.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Department\\PartialViews\\_CreateEditPartial.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\PartialViews\\_CreateEditPartial.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Department\\PartialViews\\_CreateEditPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:35:17.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_CreateEditPartial.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\PartialViews\\_CreateEditPartial.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Employee\\PartialViews\\_CreateEditPartial.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\PartialViews\\_CreateEditPartial.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Employee\\PartialViews\\_CreateEditPartial.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:28:37.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:25:09.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:24:46.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Details.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Department\\Details.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Details.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Department\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:24:37.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:24:26.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:20:43.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:18:42.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:20:47.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:21:52.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:18:55.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ButtonsPartial.cshtml",
+              "DocumentMoniker": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "RelativeDocumentMoniker": "MVC .PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "ToolTip": "C:\\MVC CRUD SYSTEM\\MVC .PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "RelativeToolTip": "MVC .PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:15:44.384Z",
+              "EditorCaption": ""
             }
           ]
         }
