@@ -13,7 +13,7 @@ namespace MVC.BLL.Interfaces
         public IEmployeeRepository employeeRepository { get; set; }
 
 
-        int Complete(); // this method will save the changes to the database
+        Task<int> CompleteAsync(); // this method will save the changes to the database
 
        // void Dispose(); // this method will dispose the unit of work
     }

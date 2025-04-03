@@ -13,20 +13,19 @@ namespace MVC.BLL
     public class UnitOfWork : IUnitOfWork 
     {
         private readonly AppDBContext _dbContext;
-        public IDapartmentRepository _dapartmentRepository;
-        public IEmployeeRepository _employeeRepository;
+        public IDapartmentRepository dapartmentRepository { get; set; }
+        public IEmployeeRepository employeeRepository { get; set; }
         public UnitOfWork(AppDBContext dbContext )
         {
             _dbContext = dbContext;
-            _dapartmentRepository = new DepartmentRepository(_dbContext);
-            _employeeRepository = new EmployeeRepository(_dbContext);
+            dapartmentRepository = new DepartmentRepository(_dbContext);
+            employeeRepository = new EmployeeRepository(_dbContext);
         }
-        public IDapartmentRepository dapartmentRepository { get; set; }
-        public IEmployeeRepository employeeRepository { get ; set; }
+       
 
-        public int Complete()
+        public async Task<int> CompleteAsync()
         {
-           return  _dbContext.SaveChanges(); 
+           return  await _dbContext.SaveChangesAsync(); 
         }
 
         public void Dispose() 

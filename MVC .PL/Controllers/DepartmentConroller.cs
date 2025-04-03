@@ -2,6 +2,7 @@
 using MVC.BLL.Interfaces;
 using MVC.DAL.Models;
 using System;
+using System.Threading.Tasks;
 
 namespace MVC_.PL.Controllers
 {
@@ -16,9 +17,9 @@ namespace MVC_.PL.Controllers
             _UnitOfWork = unitOfWork;
           //  _dapartmentRepository = dapartmentRepository;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var departments = _UnitOfWork.dapartmentRepository.GetAll(); // Get All Departments
+            var departments = await _UnitOfWork.dapartmentRepository.GetAllAsync(); // Get All Departments
 
             return View(departments);
         }
@@ -36,12 +37,12 @@ namespace MVC_.PL.Controllers
      
 
 
-        public IActionResult Create(Department department) // that will add the department to the database
+        public async Task<IActionResult> Create(Department department) // that will add the department to the database
         {
             if (ModelState.IsValid)
             {
-                var count = _UnitOfWork.dapartmentRepository.Add(department);
-                _UnitOfWork.Complete();
+                 await _UnitOfWork.dapartmentRepository.AddAsync(department);
+                var count = await _UnitOfWork.CompleteAsync();
                 if (count > 0)
                     return RedirectToAction("Index");
             }
@@ -52,13 +53,13 @@ namespace MVC_.PL.Controllers
         [HttpGet]
        
 
-        public IActionResult Details(int? id , string ViewName = "Details") // that will return the view of update
+        public async Task<IActionResult> Details(int? id , string ViewName = "Details") // that will return the view of update
         {
            if (!id.HasValue)
             {
                 return BadRequest();
             }
-            var department = _UnitOfWork.dapartmentRepository.GetById(id.Value);
+            var department =  await _UnitOfWork.dapartmentRepository.GetByIdAsync(id.Value);
 
 
             if (department == null)
@@ -71,15 +72,15 @@ namespace MVC_.PL.Controllers
 
         [HttpGet]
 
-        public IActionResult Edit(int? id) // that will return the view of update
+        public async Task<IActionResult> Edit(int? id) // that will return the view of update
         {
-            return Details(id , "Edit");
+            return  await Details(id , "Edit");
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit([FromRoute] int id, Department department) // that will update the department in the database
+        public async Task<IActionResult> Edit([FromRoute] int id, Department department) // that will update the department in the database
 
         {
             if (id != department.Id)
@@ -90,8 +91,8 @@ namespace MVC_.PL.Controllers
             {
                 try
                 {
-                    var count = _UnitOfWork.dapartmentRepository.Update(department);
-                    _UnitOfWork.Complete();
+                     _UnitOfWork.dapartmentRepository.Update(department);
+                    var count = await _UnitOfWork.CompleteAsync();
                     if (count > 0)
                         return RedirectToAction("Index");
                 }
@@ -109,9 +110,9 @@ namespace MVC_.PL.Controllers
 
         [HttpGet]
 
-        public IActionResult Delete(int? id) // that will return the view of update
+        public  async Task<IActionResult> Delete(int? id) // that will return the view of update
         {
-            return Details(id, "Delete");
+            return  await Details(id, "Delete");
         }
 
 
@@ -119,7 +120,7 @@ namespace MVC_.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Delete([FromRoute] int id, Department department) // that will update the department in the database
+        public async Task<IActionResult> Delete([FromRoute] int id, Department department) // that will update the department in the database
 
         {
             if (id != department.Id)
@@ -130,8 +131,8 @@ namespace MVC_.PL.Controllers
             {
                 try
                 {
-                    var count = _UnitOfWork.dapartmentRepository.Delete(department);
-                    _UnitOfWork.Complete();
+                    _UnitOfWork.dapartmentRepository.Delete(department);
+                    var count = await _UnitOfWork.CompleteAsync();
                     if (count > 0)
                         return RedirectToAction("Index");
                 }

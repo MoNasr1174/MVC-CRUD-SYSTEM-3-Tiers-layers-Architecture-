@@ -18,41 +18,33 @@ namespace MVC.BLL.Repositories
         {
             _dBContext = dBContext;
         }
-        public int Add(T Entity)
-        {
-            _dBContext.Set<T>().Add(Entity);
-            var Count = _dBContext.SaveChanges();
-            return Count;
+        public async Task AddAsync(T Entity)
+         =>  await _dBContext.Set<T>().AddAsync(Entity);
+        
 
-        }
-
-        public IEnumerable<T> GetAll()
+        public async Task<IEnumerable<T>> GetAllAsync()
         {
             if(typeof(T) == typeof(Employee))
             {
-                return ( _dBContext.Employees.Include(E => E.Department).AsNoTracking().ToList()) as IEnumerable<T> ;
+                return  (IEnumerable<T>) await _dBContext.Employees.Include(E => E.Department).AsNoTracking().ToListAsync() ;
             }
-            return _dBContext.Set<T>().AsNoTracking().ToList();
+            return await _dBContext.Set<T>().AsNoTracking().ToListAsync();
         }
 
-        public T GetById(int id)
-        {
-            return _dBContext.Set<T>().Find(id);
-        }
+        public async Task<T> GetByIdAsync(int id)
+            => await _dBContext.Set<T>().FindAsync(id);
 
 
-        public int Update(T Entity)
-        {
-            _dBContext.Set<T>().Update(Entity);
-            var Count = _dBContext.SaveChanges();
-            return Count;
-        }
-        public int Delete(T Entity)
-        {
-            _dBContext.Set<T>().Remove(Entity);
-            var Count = _dBContext.SaveChanges();
-            return Count;
-        }
+
+
+
+        public void Update(T Entity)
+           => _dBContext.Set<T>().Update(Entity);
+         
+        public void Delete(T Entity)
+        => _dBContext.Set<T>().Remove(Entity);
+
+
 
     }
 }
