@@ -7,15 +7,19 @@ namespace MVC_.PL.Controllers
 {
     public class DepartmentController : Controller
     {
-        private readonly IDapartmentRepository _dapartmentRepository; // readonly field for IDapartmentRepository
+        private readonly IUnitOfWork _UnitOfWork;
 
-        public DepartmentController(IDapartmentRepository dapartmentRepository) // ask Clr to create an object from class implements IDapartmentRepository
+        // private readonly IDapartmentRepository _dapartmentRepository; // readonly field for IDapartmentRepository
+
+        public DepartmentController(IUnitOfWork unitOfWork) 
         {
-            _dapartmentRepository = dapartmentRepository;
+            _UnitOfWork = unitOfWork;
+          //  _dapartmentRepository = dapartmentRepository;
         }
         public IActionResult Index()
         {
-            var departments = _dapartmentRepository.GetAll(); // Get All Departments
+            var departments = _UnitOfWork.dapartmentRepository.GetAll(); // Get All Departments
+
             return View(departments);
         }
 
@@ -36,7 +40,8 @@ namespace MVC_.PL.Controllers
         {
             if (ModelState.IsValid)
             {
-                var count = _dapartmentRepository.Add(department);
+                var count = _UnitOfWork.dapartmentRepository.Add(department);
+                _UnitOfWork.Complete();
                 if (count > 0)
                     return RedirectToAction("Index");
             }
@@ -53,7 +58,8 @@ namespace MVC_.PL.Controllers
             {
                 return BadRequest();
             }
-            var department = _dapartmentRepository.GetById(id.Value);
+            var department = _UnitOfWork.dapartmentRepository.GetById(id.Value);
+
 
             if (department == null)
             {
@@ -84,7 +90,8 @@ namespace MVC_.PL.Controllers
             {
                 try
                 {
-                    var count = _dapartmentRepository.Update(department);
+                    var count = _UnitOfWork.dapartmentRepository.Update(department);
+                    _UnitOfWork.Complete();
                     if (count > 0)
                         return RedirectToAction("Index");
                 }
@@ -123,7 +130,8 @@ namespace MVC_.PL.Controllers
             {
                 try
                 {
-                    var count = _dapartmentRepository.Delete(department);
+                    var count = _UnitOfWork.dapartmentRepository.Delete(department);
+                    _UnitOfWork.Complete();
                     if (count > 0)
                         return RedirectToAction("Index");
                 }

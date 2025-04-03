@@ -97,7 +97,6 @@ C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configurat
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -123,8 +122,6 @@ C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Tr
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -223,7 +220,6 @@ C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Reflection.TypeExtension
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -448,3 +444,12 @@ C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Employee\Delete.cshtml.g
 C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Employee\Details.cshtml.g.cs
 C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Employee\Edit.cshtml.g.cs
 C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Department\PartialViews\_CreateEditPartial.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Employee\PartialViews\_CreateEditPartial.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Shared\_ButtonsPartial.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\AutoMapper.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

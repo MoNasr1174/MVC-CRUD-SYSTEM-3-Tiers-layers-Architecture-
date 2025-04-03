@@ -5,13 +5,16 @@
 
 <h1>Edit department @Model.Name</h1>
 
-@*<div asp-validation-summary="All">
-</div>*@ 
+<div asp-validation-summary="All">
+</div>
 <br />
 <form asp-action="Edit">
     <partial name="PartialViews/_CreateEditPartial" />
 </form>
 
 @section ValidationScriptSection {
-    <partial name="_ValidationScriptPartial" />
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
 }

@@ -1,22 +1,50 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using MVC.BLL.Interfaces;
 using MVC.DAL.Models;
+using MVC_.PL.ViewModels;
 using System;
+using System.Collections.Generic;
 
 namespace MVC_.PL.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly IEmployeeRepository _employeeRepository; // readonly field for IDapartmentRepository
+        //  private readonly IEmployeeRepository _employeeRepository; // readonly field for IDapartmentRepository
 
-        public EmployeeController(IEmployeeRepository employeeRepository) // ask Clr to create an object from class implements IDapartmentRepository
+        private readonly IMapper _mapper ;
+        private readonly IUnitOfWork _unitOfWork; // readonly field for IUnitOfWork
+
+        //  private readonly IDapartmentRepository _dapartmentRepository; // readonly field for IDapartmentRepository
+
+        public EmployeeController(IMapper Mapper, IUnitOfWork unitOfWork) // ask Clr to create an object from class implements IDapartmentRepository
         {
-            _employeeRepository = employeeRepository;
+           _mapper = Mapper;
+            _unitOfWork = unitOfWork;
+         
+            //  _employeeRepository = employeeRepository;
+            //_dapartmentRepository = dapartmentRepo;
         }
-        public IActionResult Index()
+        public IActionResult Index(string searchInp)
         {
-            var Employees = _employeeRepository.GetAll(); // Get All Employees
-            return View(Employees);
+            IEnumerable<Employee> employees;
+            if (string.IsNullOrEmpty(searchInp))
+            {
+                employees = _unitOfWork.employeeRepository.GetAll(); // Get All Employees
+                
+              
+            }else
+            {
+               employees = _unitOfWork.employeeRepository.GetEmployeeByName(searchInp);
+              
+            }
+
+            _unitOfWork.Complete();
+
+            var mappedEpms = _mapper.Map<IEnumerable<Employee> , IEnumerable<EmployeeViewModel>>(employees);
+            return View(mappedEpms);
+
+
         }
 
         [HttpGet]
@@ -24,6 +52,8 @@ namespace MVC_.PL.Controllers
 
         public IActionResult Create() // that will return the view of create
         {
+            //ViewBag.Departments = _dapartmentRepository.GetAll();
+
             return View();
         }
 
@@ -32,15 +62,17 @@ namespace MVC_.PL.Controllers
 
 
 
-        public IActionResult Create(Employee Employee) // that will add the Employee to the database
+        public IActionResult Create(EmployeeViewModel EmployeeVM) // that will add the Employee to the database
         {
             if (ModelState.IsValid)
             {
-                var count = _employeeRepository.Add(Employee);
+                var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee >(EmployeeVM);
+                var count = _unitOfWork.employeeRepository.Add(mappedEmployee);
+                _unitOfWork.Complete();
                 if (count > 0)
                     return RedirectToAction("Index");
             }
-            return View(Employee);
+            return View(EmployeeVM);
         }
 
 
@@ -53,13 +85,17 @@ namespace MVC_.PL.Controllers
             {
                 return BadRequest();
             }
-            var Employee = _employeeRepository.GetById(id.Value);
+            var Employee = _unitOfWork.employeeRepository.GetById(id.Value);
+
+
+
+            var MappEmp = _mapper.Map<Employee, EmployeeViewModel>(Employee); 
 
             if (Employee == null)
             {
                 return NotFound();
             }
-            return View(ViewName, Employee);
+            return View(ViewName, MappEmp);
         }
 
 
@@ -67,16 +103,18 @@ namespace MVC_.PL.Controllers
 
         public IActionResult Edit(int? id) // that will return the view of update
         {
+            //ViewBag.Departments = _dapartmentRepository.GetAll();
+
             return Details(id, "Edit");
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Edit([FromRoute] int id, Employee Employee) // that will update the Employee in the database
+        public IActionResult Edit([FromRoute] int id, EmployeeViewModel EmployeeVM) // that will update the Employee in the database
 
         {
-            if (id != Employee.Id)
+            if (id != EmployeeVM.Id)
             {
                 return BadRequest();
             }
@@ -84,7 +122,9 @@ namespace MVC_.PL.Controllers
             {
                 try
                 {
-                    var count = _employeeRepository.Update(Employee);
+                    var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(EmployeeVM);
+                    var count = _unitOfWork.employeeRepository.Update(mappedEmployee);
+                    _unitOfWork.Complete();
                     if (count > 0)
                         return RedirectToAction("Index");
                 }
@@ -96,7 +136,7 @@ namespace MVC_.PL.Controllers
 
 
             }
-            return View(Employee);
+            return View(EmployeeVM);
 
         }
 
@@ -112,10 +152,10 @@ namespace MVC_.PL.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Delete([FromRoute] int id, Employee Employee) // that will update the Employee in the database
+        public IActionResult Delete([FromRoute] int id, EmployeeViewModel EmployeeVM) // that will update the Employee in the database
 
         {
-            if (id != Employee.Id)
+            if (id != EmployeeVM.Id)
             {
                 return BadRequest();
             }
@@ -123,7 +163,9 @@ namespace MVC_.PL.Controllers
             {
                 try
                 {
-                    var count = _employeeRepository.Delete(Employee);
+                    var mappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(EmployeeVM);
+                    var count = _unitOfWork.employeeRepository.Delete(mappedEmployee);
+                    _unitOfWork.Complete();
                     if (count > 0)
                         return RedirectToAction("Index");
                 }
@@ -135,7 +177,7 @@ namespace MVC_.PL.Controllers
 
 
             }
-            return View(Employee);
+            return View(EmployeeVM);
 
         }
 

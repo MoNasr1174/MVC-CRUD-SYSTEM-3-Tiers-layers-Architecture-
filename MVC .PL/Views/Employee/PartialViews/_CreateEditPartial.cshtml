@@ -1,12 +1,16 @@
-﻿@* @using Demo.BLL.Interfaces
-@model EmployeeViewModel
-@inject IUnitOfWok unitOfWork
+﻿@using MVC.BLL.Interfaces
+@using MVC.BLL.Repositories
+@* @model EmployeeViewModel
+@inject IUnitOfWok unitOfWork  *@
+@inject IUnitOfWork _unitOfWork
 @{
-    //var departments = new SelectList(@ViewBag.Departments,"Id","Name");
-        var departments = new SelectList(await unitOfWork.DepartmentReprository.GetAll(),"Id","Name");
-} *@
+  //  var departments = new SelectList(@ViewBag.Departments,"Id","Name");
+    var departments = new SelectList(_unitOfWork.dapartmentRepository.GetAll(), "Id", "Name");
 
-@model Employee
+     //   var departments = new SelectList(await unitOfWork.DepartmentReprository.GetAll(),"Id","Name");
+} 
+
+@model EmployeeViewModel
 
 <div class="mb-3 form-group">
     <label class="col-form-label" asp-for="Name"></label>
@@ -50,19 +54,19 @@
 </div>
 
 
-   @* <div class="mb-3 form-group">
+ <div class="mb-3 form-group">
     <label class="col-form-label" asp-for="Department"></label>
         <select class="form-control" asp-items="@departments" asp-for="DepartmentId">
             <option value="@null">
                 ----Select Department--------
             </option>
-        </select>
-  </div>
+        </select> 
+  @* </div>
   <div class="mb-3 form-group">
     <label class="col-form-label" asp-for="PhoneNumber"></label>
     <input type="text" class="form-control" asp-for="PhoneNumber">
     <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-  </div>
+  </div> 
   
   <div class="mb-3 form-group">
     <label class="col-form-label" asp-for="Address"></label>
@@ -82,4 +86,4 @@
     <span asp-validation-for="IsActive" class="text-danger"></span>
   </div>
   <input type="submit"  value="Submit" class="btn btn-primary" />
-  <a asp-action="Index" class="btn btn-light">Back To List</a> *@
+  <a asp-action="Index" class="btn btn-light">Back To List</a> *@ 

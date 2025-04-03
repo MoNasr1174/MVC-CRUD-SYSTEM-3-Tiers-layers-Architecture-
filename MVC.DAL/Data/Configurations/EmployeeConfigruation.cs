@@ -13,7 +13,9 @@ namespace MVC.DAL.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
-            builder.Property(S => S.Salary).HasColumnType("decimal(18,2)"); 
+            builder.Property(S => S.Salary).HasColumnType("decimal(18,2)");
+
+            builder.Property(N => N.Name).IsRequired(true).HasMaxLength(50); 
         }
     }
 }

@@ -28,12 +28,18 @@ using MVC_.PL.Models
 #line 3 "C:\MVC CRUD SYSTEM\MVC .PL\Views\_ViewImports.cshtml"
 using MVC.DAL.Models
 
+#nullable disable
+    ;
+#nullable restore
+#line 4 "C:\MVC CRUD SYSTEM\MVC .PL\Views\_ViewImports.cshtml"
+using MVC_.PL.ViewModels
+
 #line default
 #line hidden
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"47e02b4da20d198892b7b1b00b12944068797c438ef2e82d20ff70b4d56bad39", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"9ec7b760ac08c9878af3662c5fb3b099b03425b46e91de4a159ef392045f5321", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"56290ce5d404231b469d5e265f778544f6a679bc97b16d83f1621bee6855fc61", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

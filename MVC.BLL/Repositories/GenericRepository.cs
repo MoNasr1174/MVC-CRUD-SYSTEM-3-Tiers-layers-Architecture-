@@ -28,6 +28,10 @@ namespace MVC.BLL.Repositories
 
         public IEnumerable<T> GetAll()
         {
+            if(typeof(T) == typeof(Employee))
+            {
+                return ( _dBContext.Employees.Include(E => E.Department).AsNoTracking().ToList()) as IEnumerable<T> ;
+            }
             return _dBContext.Set<T>().AsNoTracking().ToList();
         }
 

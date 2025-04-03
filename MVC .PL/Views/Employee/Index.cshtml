@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Employee>
+﻿
+@model IEnumerable<EmployeeViewModel>
 @{
     ViewData["title"] = "All Employees";
 }
@@ -9,6 +10,20 @@
 @if (Model.Count() > 0)
 {
 
+    <div class="row justify-content-center align-items-center mt-5">
+        <form asp-action="Index" class="row col-8 offset-2">
+            <div class="col-8">
+                <input type="text" class="form-control" name="searchInp" placeholder="Search By Name" />
+            </div>
+            <div class="col-4">
+                <input type="submit" value="Search" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+
+
+
+
     <h1 class="mt-2"> Employees</h1>
     <table class="table table-striped table-hover mt-5">
         <thead> 
@@ -17,6 +32,7 @@
                 <th scope="col">@Html.DisplayNameFor(E => E.Name)</th>
                 <th scope="col">@Html.DisplayNameFor(E => E.Age)</th>
                 <th scope="col">@Html.DisplayNameFor(E => E.Address)</th>
+                <th scope="col">@Html.DisplayNameFor(E => E.Department)</th>
                 <th scope="col">@Html.DisplayNameFor(E => E.Salary)</th>
                 <th scope="col">@Html.DisplayNameFor(E => E.IsActive)</th>
                 <th scope="col">@Html.DisplayNameFor(E => E.Email)</th>
@@ -34,6 +50,7 @@
                     <td>@Employee.Name</td>
                     <td>@Employee.Age</td>
                     <td>@Employee.Address</td>
+                    <td>@Employee.Department?.Name</td>
                     <td>@Html.DisplayFor(M => Employee.Salary)</td>
                     <td>@Html.DisplayFor(M => Employee.IsActive)</td>
                     <td>@Html.DisplayFor(M => Employee.Email)</td>
@@ -42,7 +59,7 @@
 
 
 
-                    <partial name="_ButtonsPartialView" model="@Employee.Id">
+                    <partial name="_ButtonsPartial" model="@Employee.Id">
                   
 
                 </tr>
