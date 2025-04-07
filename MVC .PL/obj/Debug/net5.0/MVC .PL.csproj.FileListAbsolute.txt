@@ -22,8 +22,6 @@ C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Components
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cors.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -107,8 +105,6 @@ C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.FileSystem
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Hosting.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Http.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Core.dll
-C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Localization.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
@@ -453,3 +449,14 @@ C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjec
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\MVC CRUD SYSTEM\MVC .PL\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Shared\_AuthLayout.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Account\SignIn.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Account\CheckYourInbox.cshtml.g.cs
+C:\MVC CRUD SYSTEM\MVC .PL\obj\Debug\net5.0\Razor\Views\Account\ResetPassword.cshtml.g.cs

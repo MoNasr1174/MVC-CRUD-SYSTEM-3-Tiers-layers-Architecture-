@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MVC.BLL.Interfaces;
 using MVC.DAL.Models;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace MVC_.PL.Controllers
 {
+    [Authorize]
     public class EmployeeController : Controller
     {
         //  private readonly IEmployeeRepository _employeeRepository; // readonly field for IDapartmentRepository

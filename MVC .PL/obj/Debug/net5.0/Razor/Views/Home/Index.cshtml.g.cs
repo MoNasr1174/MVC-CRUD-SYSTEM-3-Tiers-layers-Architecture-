@@ -39,7 +39,7 @@ using MVC_.PL.ViewModels
 #nullable disable
     ;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"2999aea4fd9585148590d2af132f38ffc044fe9b3869b38d4a2bbf6259d065ea", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"56290ce5d404231b469d5e265f778544f6a679bc97b16d83f1621bee6855fc61", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"ab7f6d0af6753de0d9be2e30c6b213a08dc93d524aaf50cd8cdc9a6d9dec3bbb", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     internal sealed class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

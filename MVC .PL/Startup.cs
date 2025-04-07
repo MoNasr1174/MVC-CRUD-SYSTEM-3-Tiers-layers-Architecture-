@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,6 +13,7 @@ using Microsoft.Extensions.Hosting;
 using MVC.BLL.Interfaces;
 using MVC.BLL.Repositories;
 using MVC.DAL.Data;
+using MVC.DAL.Models;
 using MVC_.PL.Extentions;
 using MVC_.PL.Helpers;
 
@@ -39,7 +41,22 @@ namespace MVC_.PL
 
             services.AddApplictionServices();
 
-            services.AddAutoMapper(M => M.AddProfile<MappingProfiles>()); 
+            services.AddAutoMapper(M => M.AddProfile<MappingProfiles>());
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+            .AddEntityFrameworkStores<AppDBContext>()
+            .AddDefaultTokenProviders();
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/Account/SignIn";
+                options.LogoutPath = "/Account/Logout";
+             //   options.AccessDeniedPath = "/Account/AccessDenied";
+              //  options.SlidingExpiration = true;
+                options.ExpireTimeSpan = TimeSpan.FromDays(1);
+            });
+
+            services.AddAuthentication();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +76,8 @@ namespace MVC_.PL
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
